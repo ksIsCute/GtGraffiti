@@ -8,6 +8,32 @@
 <link rel="shortcut icon" href="https://raw.githubusercontent.com/ksIsCute/GtGraffiti/5ac9d67154da7a2d444025c313a8bcd1df24ae98/icon.ico" type="image/x-icon">
 </head>
 <style>
+.btn-wrap {
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+}
+
+.btn {
+  padding: 1.2em 1em;
+  border-radius: 0.5em;
+  box-shadow: 4px 4px 8px 4px #0002;
+  background-color: #3498db;
+
+  color: white;
+  font-family: verdana, arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3cb0fd;
+  box-shadow: 6px 6px 9px 6px #0003;
+  transform: scale(1);
+}
 #menu {
 	background: #4B14CC;
 	color: #FFF;
@@ -146,5 +172,8 @@ function updatemenu() {
 <h1> GtGraffiti </h1>
 <p>This website was created to track and give infomation on Georgetown, ontario Taggers</p>
 <p>Aswell as groups involved in the art of <strong>Graffiti<strong>.</p>
+<div class="btn-wrap">
+<a class="btn" href="https://discord.gg/pa82epyp9j">Join Community</a>
+</div>
 </body>
 </html>
