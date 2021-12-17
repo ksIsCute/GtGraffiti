@@ -13,7 +13,10 @@
   gap: 0.5em;
   justify-content: center;
 }
-
+li {
+	font-family:verdana;
+	color:white
+}
 .btn {
   padding: 1.2em 1em;
   border-radius: 0.5em;
@@ -33,6 +36,13 @@
   background-color: #3cb0fd;
   box-shadow: 6px 6px 9px 6px #0003;
   transform: scale(1);
+}
+.btn[aboutus] {
+  background-color: #3d3d3d;
+}
+
+.btn[aboutus]:hover {
+  background-color: #696969;
 }
 #menu {
 	background: #4B14CC;
@@ -170,10 +180,13 @@ function updatemenu() {
   </ul>
 </nav>
 <h1> GtGraffiti </h1>
-<p>This website was created to track and give infomation on Georgetown, ontario Taggers</p>
+<p>This website was created to track and give infomation on Ontario Taggers</p>
 <p>Aswell as groups involved in the art of <strong>Graffiti<strong>.</p>
+<h2> Where we at?: </h2>
+<p> We look for graffiti artists in Georgetown, Oakville, Milton, Acton, Mississauga
 <div class="btn-wrap">
 <a class="btn" href="https://discord.gg/pa82epyp9j">Join Community</a>
+<a class="btn" href="https://discord.gg/pa82epyp9j" aboutus>Join Community</a>
 </div>
 </body>
 </html>
