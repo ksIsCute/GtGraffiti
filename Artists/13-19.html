@@ -9,6 +9,38 @@
 <link rel="shortcut icon" href="https://raw.githubusercontent.com/ksIsCute/GtGraffiti/5ac9d67154da7a2d444025c313a8bcd1df24ae98/icon.ico" type="image/x-icon">
 </head>
 <style>
+.btn-wrap {
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+}
+.btn {
+  padding: 1.2em 1em;
+  border-radius: 0.5em;
+  box-shadow: 4px 4px 8px 4px #0002;
+  background-color: #3498db;
+
+  color: white;
+  font-family: verdana, arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #3cb0fd;
+  box-shadow: 6px 6px 9px 6px #0003;
+  transform: scale(1);
+}
+.btn[seetag] {
+  background-color: #3d3d3d;
+}
+
+.btn[seetag]:hover {
+  background-color: #696969;
+}
 #menu {
 	background: #4B14CC;
 	color: #FFF;
@@ -161,5 +193,21 @@ function updatemenu() {
 <h2> Here are some recent tags that were from 13-19 </h2>
 <img src="https://raw.githubusercontent.com/ksIsCute/GtGraffiti/gh-pages/tags/13-19BRIDGE.jpg" style="border:5px solid black">
 <p> This was a co-tag with BEAST, found on the side bridge of Hungry Hollow, which lapses across the main bridge across the river. </p>
+<img src="https://raw.githubusercontent.com/ksIsCute/GtGraffiti/gh-pages/tags/13-19COMPRESS.jpg" style="border:5px solid black;float:right">
+<div style=clear:right>
+<p> This was found beside one of the pillars under Hungry Hollow, It seems pretty old by the paint decay around it. </p>
+</div>
+<img src="https://raw.githubusercontent.com/ksIsCute/GtGraffiti/gh-pages/tags/13-19DOUBLETAG.jpg" style="border:5px solid black">
+<p> There isnt much to say about these tags, but it seems 13-19 has claimed this wall. </p>
+<h2> These tags were the most recently FOUND, probably not most recently made. </h2>
+<img src="https://raw.githubusercontent.com/ksIsCute/GtGraffiti/gh-pages/tags/13-19OPENWALL.jpg" style="border:5px solid black;float:right">
+<div style=clear:right></div>
+<img src="https://raw.githubusercontent.com/ksIsCute/GtGraffiti/gh-pages/tags/13-19SMALL.jpg" style="border:5px solid black">
+<img src="https://raw.githubusercontent.com/ksIsCute/GtGraffiti/gh-pages/tags/13-19WALL.jpg" style="border:5px solid black;float:right">
+<div style=clear:right></div>
+<h2> See any of 13-19's tags? </h2>
+<div class="btn-wrap">
+<a class="btn" href="https://discord.gg/pa82epyp9j" seetag>Tell Us!</a>
+</div>
 </body>
 </html>
