@@ -18,7 +18,7 @@
   padding: 1.2em 1em;
   border-radius: 0.5em;
   box-shadow: 4px 4px 8px 4px #0002;
-  background-color: #3d3d3d;
+  background-color: #3498db;
 
   color: white;
   font-family: verdana, arial, sans-serif;
@@ -30,9 +30,17 @@
 }
 
 .btn:hover {
-  background-color: #696969;
+  background-color: #3cb0fd;
   box-shadow: 6px 6px 9px 6px #0003;
   transform: scale(1);
+}
+.btn[greybutton] {
+  background-color: #3d3d3d;
+}
+
+.btn[greybutton]:hover {
+  background-color: #696969;
+}
 
 #menu {
 	background: #4B14CC;
@@ -183,7 +191,7 @@ function updatemenu() {
 <img src="https://raw.githubusercontent.com/ksIsCute/GtGraffiti/gh-pages/tags/toys/FRALENtoy.jpeg" alt="Toy Of The Day">
 <p>This toy was found in Georgetown, Ontario on the side of a mailbox. I cant quite figure out what the name is, I think its FRAL3N (FRALEN), or something. But if I eventually find out its probably something weird, this toy seems to have only this tag. Wonder why.</p>
 <div class="btn-wrap">
-<a class="btn" href="https://discord.gg/pa82epyp9j">Join Our Discord</a>
+<a class="btn" href="https://discord.gg/pa82epyp9j" greybutton>Join Our Discord</a>
 </div>
 </body>
 </html>
